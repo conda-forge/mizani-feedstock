@@ -1,8 +1,8 @@
 {% set name = "mizani" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "c7018eb17ab79832203f72620faf2403a4bb09cf7904bea3f382b15b785d0ac5" %}
+{% set hash = "d452c0bf796efe057c217ce9f32eec3294f62c8811744db86043212ad699291f" %}
 {% set build = 0 %}
 
 package:
