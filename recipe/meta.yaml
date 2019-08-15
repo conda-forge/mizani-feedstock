@@ -1,8 +1,8 @@
 {% set name = "mizani" %}
-{% set version = "0.5.4" %}
+{% set version = "0.6.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "0d43e26f9024b618d0d6919699c7f14002ebd4907d0ae81b25e44a4bb5c97998" %}
+{% set hash = "2cdba487ee54faf3e5bfe0903155a13ff13d27a2dae709f9432194915b4fb1cd" %}
 {% set build = 0 %}
 
 package:
@@ -25,10 +25,10 @@ requirements:
     - setuptools
 
   run:
-    - python >=3.5.0
+    - python >=3.6.0
     - numpy
-    - pandas >=0.23.4
-    - matplotlib
+    - pandas >=0.25.0
+    - matplotlib >= 3.1.1
     - palettable
 
 test:
