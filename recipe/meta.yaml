@@ -3,7 +3,7 @@
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "2cdba487ee54faf3e5bfe0903155a13ff13d27a2dae709f9432194915b4fb1cd" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 package:
   name: {{ name|lower }}
@@ -28,7 +28,7 @@ requirements:
     - python >=3.6.0
     - numpy
     - pandas >=0.25.0
-    - matplotlib >=3.1.1
+    - matplotlib-base >=3.1.1
     - palettable
 
 test:
