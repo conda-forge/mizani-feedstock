@@ -1,9 +1,8 @@
 {% set name = "mizani" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "2cdba487ee54faf3e5bfe0903155a13ff13d27a2dae709f9432194915b4fb1cd" %}
-{% set build = 1 %}
+{% set hash = "2b15c5e82b4053d6fc4a3124e1e42d3578b483a34c01426c174264df9a1e56a4" %}
+{% set build = 0 %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +11,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   number: {{ build }}
@@ -42,7 +41,7 @@ about:
   license_file: LICENSE
   license: BSD 3-Clause
   license_family: BSD
-  summary: 'Scales for Python'
+  summary: Scales for Python
   dev_url: https://github.com/has2k1/mizani
   doc_url: https://mizani.readthedocs.io/en/latest/
 
