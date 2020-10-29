@@ -1,7 +1,7 @@
 {% set name = "mizani" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "97eea665d17fdc6c827b832925c094839e1ef7bf65b3aa47105e772b6eca9b0a" %}
+{% set hash = "f92597c715d806ca941499a257b2eb527f08d659a11488b63661c6f8be3eb085" %}
 {% set build = 0 %}
 
 package:
@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=3.6.0
     - numpy
-    - pandas >=1.0.0
+    - pandas >=1.1.0
     - matplotlib-base >=3.1.1
     - palettable
 
