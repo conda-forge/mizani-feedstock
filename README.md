@@ -5,11 +5,13 @@ Home: https://github.com/has2k1/mizani
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mizani-feedstock/blob/master/LICENSE.txt)
 
 Summary: Scales for Python
 
+Development: https://github.com/has2k1/mizani
 
+Documentation: https://mizani.readthedocs.io/en/latest/
 
 Current build status
 ====================
