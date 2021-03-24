@@ -1,7 +1,7 @@
 {% set name = "mizani" %}
-{% set version = "0.7.2" %}
+{% set version = "0.7.3" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "f92597c715d806ca941499a257b2eb527f08d659a11488b63661c6f8be3eb085" %}
+{% set hash = "f521300bd29ca918fcd629bc8ab50fa04e41bdbe00f6bcf74055d3c6273770a4" %}
 {% set build = 0 %}
 
 package:
@@ -19,7 +19,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
 
