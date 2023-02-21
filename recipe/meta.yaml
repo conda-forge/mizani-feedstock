@@ -49,6 +49,8 @@ test:
     # at build time
     - pip list | grep -i {{ name }} | grep {{ version }}
     - pip check
+    - pwd
+    - ls -larth
     - pytest
 
 about:
