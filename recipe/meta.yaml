@@ -49,9 +49,10 @@ test:
     # at build time
     - pip list | grep -i {{ name }} | grep {{ version }}
     - pip check
-    - pwd
+    - cd $SRC_DIR && pwd
+    - echo $PWD
     - ls -larth
-    - pytest
+    - cd $SRC_DIR && pytest
 
 about:
   home: https://github.com/has2k1/mizani
