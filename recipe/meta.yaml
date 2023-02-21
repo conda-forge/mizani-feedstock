@@ -44,15 +44,16 @@ test:
     - mizani
     - mizani.external
     - mizani.tests
+  source_files:
+    - "*"
   commands:
     # The pip version can reported incorrectly if setuptools_scm isn't available
     # at build time
     - pip list | grep -i {{ name }} | grep {{ version }}
     - pip check
-    - cd $SRC_DIR && pwd
     - echo $PWD
     - ls -larth
-    - cd $SRC_DIR && pytest
+    - pytest
 
 about:
   home: https://github.com/has2k1/mizani
