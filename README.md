@@ -3,7 +3,7 @@ About mizani
 
 Home: https://github.com/has2k1/mizani
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mizani-feedstock/blob/main/LICENSE.txt)
 
