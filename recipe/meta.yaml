@@ -39,9 +39,6 @@ test:
     - pip
     - pytest
     - pytest-cov
-  imports:
-    - mizani
-    - mizani.colors
   source_files:
     - "tests"
     - "pyproject.toml"
